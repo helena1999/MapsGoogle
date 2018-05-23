@@ -31,10 +31,46 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:src="@drawable/ic_search_black_24dp"/>
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/searchText"
+            android:layout_toEndOf="@+id/ic_luup"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:background="@null"
+            android:hint="@string/otsi"
+            android:maxLines="1"
+            android:inputType="text"
+            android:imeOptions="actionSearch"/>
 
 
 
 
     </RelativeLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ic_gps"
+        android:src="@drawable/ic_gps_fixed_black_24dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="11dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ic_info"
+        android:src="@drawable/ic_info_black_24dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ic_map"
+        android:src="@drawable/ic_map_black_24dp"/>
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/searchText"
+        android:layout_toEndOf="@id/ic_luup"/>
 
 </RelativeLayout>

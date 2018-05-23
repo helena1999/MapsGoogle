@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MapsGoogle</string>
     <string name="api_võti">AIzaSyCf4wKkXJA6BeWvTUsZUaWfDSSXDdlAH64</string>
+    <string name="otsi">Search address, city or index</string>
 </resources>
